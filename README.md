@@ -15,7 +15,6 @@ then open localhost:3000 in browser
 
 ### notes
 
-make sure to change the .env to config the model and the ollama link:
-ex : llama3.1 ollama: LLAMA_URL=http://host.docker.internal:11434
+ BASE_URL=http://host.docker.internal:11434
 
 please keep the host.docker.internal to be able to run in docker
